@@ -1,10 +1,9 @@
-name: hello_world
-
+name: hello1
 on:
   workflow_dispatch:
 
 jobs:
-  hello_world:
+  hello2:
     runs-on: ubuntu-latest
 
     steps:
