@@ -1,17 +1,19 @@
 name: hello1
-on:
-  workflow_dispatch:
-
+on: workflow_dispatch
 jobs:
-  hello2:
+  first:
     runs-on: ubuntu-latest
-
     steps:
-      - name: printing hello world
-        run: |
-          echo "hey hi welcome to GHA"
-          echo "hey hi welcome to GHA"
+      - name: build
+        run: print"hi"
+  second:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: print"hey"
+        
   
+
      
   
    
