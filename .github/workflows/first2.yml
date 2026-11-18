@@ -9,7 +9,9 @@ jobs:
 
     steps:
       - name: printing hello world
-        run: echo "hey hi welcome to GHA"
+        run: |
+          echo "hey hi welcome to GHA"
+          echo "hey hi welcome to GHA"
   
      
   
