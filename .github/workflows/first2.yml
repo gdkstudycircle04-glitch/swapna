@@ -1,14 +1,14 @@
 name: hello1
 on: push
+
 jobs:
   first:
     runs-on: ubuntu-latest
     steps:
       - name: build
-       run: |
+        run: |
           echo "hi"
           echo "hello"
-        
   
 
      
